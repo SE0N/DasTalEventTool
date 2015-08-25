@@ -1,0 +1,13 @@
+<?php
+
+$cfg = [];
+
+/* MySQL Config */
+$cfg['mysql']['host']   = 'localhost';
+$cfg['mysql']['user']   = 'USER';
+$cfg['mysql']['pass']   = 'PASSWORD';
+$cfg['mysql']['db']     = 'DATABASE';
+
+$cfg['cookie']['hash']  = "HASHALGO";
+$cfg['cookie']['salt1'] = "SALT1";
+$cfg['cookie']['salt2'] = "SALT2";
